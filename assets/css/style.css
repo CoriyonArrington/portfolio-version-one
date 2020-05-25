@@ -152,7 +152,7 @@ p {
 
 .paddsection {
   padding-top: 64px;
-  padding-bottom: 64px;
+  /* padding-bottom: 64px; */
 }
 
 .paddsections {
@@ -284,13 +284,17 @@ nav ul li a {
     flex-direction: row;
     justify-content: center;
   }
+
+  .hero-content h1 {
+    text-align: center;
+  }
 }
 
 .hero-content h1 {
   font-size: 40px; /* original size 56 */
   color: #fff;
   font-weight: 900;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-content p {
@@ -1053,6 +1057,7 @@ blockquote {
     display: block;
   }
   /* About */
+
   .head-info .header-content h1 {
     font-size: 32px;
   }
