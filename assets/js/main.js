@@ -94,7 +94,7 @@ $(document).ready(function () {
 
     typed.typed({
       strings: strings,
-      typeSpeed: 325,
+      typeSpeed: 150,
       loop: false,
     });
   });
