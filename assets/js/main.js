@@ -39,7 +39,7 @@ $(document).ready(function () {
         500,
         'swing',
         function () {
-          window.location.hash = target.selector;
+          window.location.hash = target[0].id;
           $(document).on('scroll', onScroll);
         }
       );
